@@ -1,0 +1,77 @@
+.ba-map {
+  height: 500px;
+  margin-top: 50px;
+}
+
+.ba-grid-nav {
+  &__item {
+    float: left;
+    padding: 10px;
+  }
+}
+
+.ba-about {
+  background-color: #ebebeb;
+  color: #665f60;
+  padding-top: 128px;
+  &__link {
+    @include link
+  }
+  &__internal {
+    top: 75px;
+    @include internal;
+  }
+  &__text {
+    padding-left: 60px;
+  }
+}
+
+.ba-button {
+  display: inline-block;
+  line-height: 48px;
+  border: solid 1px #665f60;
+  padding: 0 54px;
+  min-height: 50px;
+  font-size: 20px;
+  font-style: italic;
+  color: #665f60;
+  &:hover{
+    color: #fff;
+    background-color: #665f60;
+  }
+}
+
+.ba-services {
+  background-color: #ebebeb;
+  color: #665f60;
+  padding-top: 118px;
+  &__link {
+    display: block;
+    color: #665f60;
+    height: 400px;
+    &:hover{
+      color: #665f60;
+    }
+  }
+  &__link--grey {
+    background-color: #dbdbdb;
+
+  }
+  &__link--last{
+    color: #fff;
+    background: url("../img/ourserv.jpg");
+    height: 800px;
+    &:hover{
+      color: #fff;
+    }
+  }
+  &__title {
+    color: #665f60;
+    &--last{
+      color: #fff;
+    }
+  }
+  &__description{
+    font-style: italic;
+  }
+}

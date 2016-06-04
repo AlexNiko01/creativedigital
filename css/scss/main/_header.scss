@@ -1,0 +1,46 @@
+@media only screen and (min-width: 40.0625em) {
+  .top-bar,
+  .top-bar-section ul li,
+  .top-bar-section li:not(.has-form) a:not(.button),
+  .top-bar-section li:not(.has-form) a:not(.button):hover {
+    background: rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+}
+
+.ba-header {
+  padding-top: 35px;
+}
+
+.ba-main-menu {
+  &__item {
+    margin-top: 25px;
+    margin-bottom: 36px;
+  }
+
+}
+
+.ba-intro {
+  background: url("../img/introbc.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  color: #fff;
+  &__content {
+    max-width: 960px;
+    padding: 330px 0 510px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  &__title {
+    text-transform: uppercase;
+    font-size: 72px;
+    font-weight: 700;
+  }
+  p{
+    font-style: italic;
+    font-size: 30px;
+  }
+}
